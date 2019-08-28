@@ -206,7 +206,7 @@ model User {
 
 ## Attributes
 
-Attributes modify the behavior of a [field](#fields) or block (e.g. [models](#models)). There are two ways to add attributes to your data model:
+Attributes modify the behavior of a [field](#fields) or block (e.g. [modelss](#models)). There are two ways to add attributes to your data model:
 
 - [Field attributes](#field-attributes) are prefixed with `@`.
 - [Block attributes](#block-attributes) are prefixed with `@@`.

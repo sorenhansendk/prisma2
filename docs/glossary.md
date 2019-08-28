@@ -140,7 +140,6 @@ Determines what fields of a model are returned in a Photon API call. By default,
 
 - non-lazy [scalar fields](./data-modeling.md#scalar-types)
 - enums
-- [embed](./data-modeling.md#embeds) fields
 
 The selection set can be manipulated by passing the [`select`](./photon/api.md#select-exclusively-via-select) or [`include`](./photon/api.md#include-additionally-via-include) option to a Photon API call.
 

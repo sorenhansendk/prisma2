@@ -21,10 +21,6 @@ As database schemas are likely to look very different per project, Prisma employ
 - Columns/fields named in ALL UPPERCASE letters, will remain ALL UPPERCASED in the Prisma schema.
 - If a normalized field with the same normalized name already exists, normalization is skipped.
 
-### Embedded types
-
-- Name is set to parent type name + uppercased field name (field which is referencing the type)
-
 ### Relations
 
 - Relation names (for ambiguous back relations) are generated as follows: `${parentType.name}${capitalize(field.name)}To${field.type.name}${capitalize(field.relatedField.name)}`.
