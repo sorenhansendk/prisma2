@@ -19,7 +19,7 @@ npm install -g prisma2
 Run the following command to initialize a new project:
 
 ```
-prisma init hello-world
+prisma2 init hello-world
 ```
 
 Then follow the interactive prompt:
